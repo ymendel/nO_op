@@ -21,6 +21,10 @@ current_user.prelude_web_user.shipping_addresses.reject { |a| a.to_s.blank? }.so
 
 I like to think of that second usage as a judgemental `tap`.
 
+Also available:
+
+ * o_O
+
 ## Contributions
 
 You want to contribute to this? Really? Y'know, you should check out my 'truthy' project, too.
