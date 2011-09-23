@@ -7,3 +7,20 @@ describe O_o do
     lambda { O_o }.should.not.raise(NameError)
   end
 end
+
+describe 'methods' do
+  it "should add an 'O_o' method" do
+    Object.new.should.respond_to(:O_o)
+  end
+
+  describe "'O_o' method" do
+    it 'should not require arguments' do
+      lambda { Object.new.O_o }.should.not.raise(ArgumentError)
+    end
+
+    it 'should return the calling object' do
+      obj = Object.new
+      obj.O_o.should == obj
+    end
+  end
+end
