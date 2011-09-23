@@ -42,4 +42,26 @@ describe 'methods' do
       lambda { o_O }.should.not.raise
     end
   end
+
+  it "should add an 'O' method" do
+    Object.new.should.respond_to(:O)
+  end
+
+  describe "'O' method" do
+    it "should return an object that responds to 'o' by returning the original calling object" do
+      obj = Object.new
+      obj.O.o.should == obj
+    end
+  end
+
+  it "should add an 'o' method" do
+    Object.new.should.respond_to(:o)
+  end
+
+  describe "'o' method" do
+    it "should return an object that responds to 'O' by returning the original calling object" do
+      obj = Object.new
+      obj.o.O.should == obj
+    end
+  end
 end
