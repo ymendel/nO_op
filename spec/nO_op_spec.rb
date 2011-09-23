@@ -64,4 +64,12 @@ describe 'methods' do
       obj.o.O.should == obj
     end
   end
+
+  it "should allow 'O.o' as a line on its own" do
+    lambda { O.o }.should.not.raise
+  end
+
+  it "should allow 'o.O' as a line on its own" do
+    lambda { o.O }.should.not.raise
+  end
 end
