@@ -24,6 +24,8 @@ I like to think of that second usage as a judgemental `tap`.
 Also available:
 
  * o_O
+ * O.o
+ * o.O
 
 ## Contributions
 
