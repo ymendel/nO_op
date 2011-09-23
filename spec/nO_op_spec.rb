@@ -23,4 +23,23 @@ describe 'methods' do
       obj.O_o.should == obj
     end
   end
+
+  it "should add an 'o_O' method" do
+    Object.new.should.respond_to(:o_O)
+  end
+
+  describe "'o_O' method" do
+    it 'should not require arguments' do
+      lambda { Object.new.o_O }.should.not.raise(ArgumentError)
+    end
+
+    it 'should return the calling object' do
+      obj = Object.new
+      obj.o_O.should == obj
+    end
+
+    it 'should be callable on its own' do
+      lambda { o_O }.should.not.raise
+    end
+  end
 end
