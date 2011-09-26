@@ -13,6 +13,10 @@ class O
   def O
     @o
   end
+
+  def ^(o)
+    @o
+  end
 end
 
 module Kernel
