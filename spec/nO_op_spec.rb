@@ -1,4 +1,4 @@
-require File.dirname(__FILE__) + '/helper.rb'
+require File.expand_path(File.dirname(__FILE__) + '/helper.rb')
 
 describe O_o do
   # I'll admit this is rather pointless, since the describe line above ensures the constant has to exist.
