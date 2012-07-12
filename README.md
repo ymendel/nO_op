@@ -29,7 +29,7 @@ Also available:
 
 ## Contributions
 
-You want to contribute to this? Really? Y'know, you should check out my 'truthy' project, too.
+You want to contribute to this? Really? Y'know, you should check out my ['truthy'](https://github.com/ymendel/truthy) project, too.
 
 ## License
 
