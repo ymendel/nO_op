@@ -6,29 +6,18 @@ class O
     @o = o
   end
 
-  def o
-    @o
-  end
-
-  def O
-    @o
-  end
+  attr_reader :o
+  alias_method :O, :o
 end
 
 module Kernel
   def O_o
     self
   end
-
-  def o_O
-    self
-  end
+  alias_method :o_O, :O_o
 
   def O
     O.new(self)
   end
-
-  def o
-    O.new(self)
-  end
+  alias_method :o, :O
 end
