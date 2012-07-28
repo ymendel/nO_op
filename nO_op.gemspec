@@ -8,6 +8,6 @@ Gem::Specification.new do |gem|
   gem.name = 'nO_op'
   gem.require_paths = ['lib']
   gem.summary = %q{Make some faces in your Ruby}
-  gem.version = '1.O.o.3'
+  gem.version = '1.O.o.4'
 end
 
