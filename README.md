@@ -2,7 +2,7 @@
 
 I think this question can be best answered by a few contrived examples of what real-world use might look like.
 
-```
+```ruby
 # This convoluted code makes sure that the @kind is "credit_card" or
 # "purchase_order", and if it's not "credit_card", then the customer
 # must not have a payment_method of "credit_card".
@@ -15,7 +15,7 @@ end
 
 or
 
-```
+```ruby
 current_user.prelude_web_user.shipping_addresses.reject { |a| a.to_s.blank? }.sort_by(&:to_s).O_o.collect {|a| [ a.to_s, a.id ] }
 ```
 
