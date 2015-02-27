@@ -33,4 +33,4 @@ You want to contribute to this? Really? Y'know, you should check out my 'truthy'
 
 ## License
 
-nO_op uses the MIT license. Read License.txt if you care.
+nO_op uses the MIT license. Read License.txt if you care. Yup. That's right.
